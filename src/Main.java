@@ -2,17 +2,17 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        int count_up_to = 100;
+        int countUpTo = 100;
         int sum = 300;
         int bonus;
 
-        if (sum > 999) {
+        if (sum > 1000) {
             bonus = sum / 100;
         } else {
             bonus = 0;
         }
 
-        int balance = bonus + sum + count_up_to;
+        int balance = bonus + sum + countUpTo;
         System.out.println("сумма бонусов составила " + bonus);
         System.out.println("баланс составил " + balance);
 
